@@ -12,6 +12,10 @@ nicht im Core - siehe Auszug aus der alten LMO4-Hilfe-Seite unten. Vorher
 (kurzzeitig) fest im Core integriert (siehe CHANGELOG.md des Hauptprojekts,
 Abschnitte src/Liga/RenderViewsTrait.php zu "renderTickerBlock").
 
+## Version 1.1.2
+
+- homepage in addon.json eingetragen (https://github.com/lmonext-org/lmonext_addon-ticker), damit der Update-Check im Addon-Manager das Addon findet (vorher leer = "kein GitHub-Repo").
+
 ## Version 1.1.1
 
 - KRITISCHER Bugfix (vom Nutzer entdeckt): ticker.php war für den iframe-
